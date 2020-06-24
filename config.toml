@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = ""
+baseURL = "https://slyracoon23-blog.netlify.app"
 title = "Nebula | Hugo blog template"
 theme = "nebula"
 languageName = "En"
