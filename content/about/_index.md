@@ -7,10 +7,6 @@ education:
   content: September 2018 - May 2022 <br> University Of Colorado Boulder
 - degree: Minor in Applied Math
   content: September 2018 - May 2022<br> University Of Colorado Boulder
-- degree: BSC Eng Electronic Engineering
-  content: September 2000 - May 2004 <br> University Of California
-- degree: MSc in Research Methodology
-  content: September 2000 - May 2004 <br> University Of California
 skill:
 - name: Planning
   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum ante
