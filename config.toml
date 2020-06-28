@@ -26,7 +26,7 @@ weight = 4
 home = ["HTML", "RSS"]
 [params]
 author = "Themefisher"
-bio = "Earl is a Junior at CU Boulder pursuing a degree in Computer Science. Earl’s passions are robotics and rugby. He is the founder of RoboBoat at CU Boulder, a robotics club that focus on designing and building ASV(Autonomous Surface Vehicles) for the annual Roboboat International Competition"
+bio = "I am a Junior at CU Boulder pursuing a degree in Computer Science. My passions are robotics and rugby. I am the founder of RoboBoat at CU Boulder, a robotics club that focus on designing and building ASV(Autonomous Surface Vehicles) for the annual Roboboat International Competition"
 contact_form_action = "http://0.0.0.0:8000"
 copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
 description = "This is meta description"
