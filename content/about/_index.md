@@ -1,5 +1,5 @@
 ---
-title: Hi,I’m Earl Potters Specilized In Blog Writing And Robotics enthusiast
+title: Hi,I’m Earl Potters Specilized In Blog Writing And Robotics Enthusiast
 image: images/author-large.jpg
 description: This is meta description. The description of the description
 education:
