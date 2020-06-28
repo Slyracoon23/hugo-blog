@@ -1,100 +1,64 @@
-######################## default configuration ####################
 baseURL = "https://slyracoon23-blog.netlify.app"
-title = "Nebula | Hugo blog template"
-theme = "nebula"
-languageName = "En"
+disqusShortname = "slyracoon23blog"
 languageCode = "en-us"
-# disqus short name
-disqusShortname = "slyracoon23blog" # get your shortname form here : https://disqus.com
-
-############################# output ##############################
-[outputs]
-home = [ "HTML", "RSS"]
-
-# render unsafe html
+languageName = "En"
+theme = "nebula"
+title = "Nebula | Hugo blog template"
 [markup.goldmark.renderer]
 unsafe = true
-
-############################# Plugins ##############################
-# CSS Plugins
+[[menu.main]]
+URL = "/"
+name = "Home"
+weight = 1
+[[menu.main]]
+URL = "about"
+name = "About"
+weight = 2
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 3
+[[menu.main]]
+URL = "privacy-policy"
+name = "Privacy Policy"
+weight = 4
+[outputs]
+home = ["HTML", "RSS"]
+[params]
+author = "Themefisher"
+bio = "Earl is a Junior at CU Boulder pursuing a degree in Computer Science. Earl’s passions are robotics and rugby. He is the founder of RoboBoat at CU Boulder, a robotics club that focus on designing and building ASV(Autonomous Surface Vehicles) for the annual Roboboat International Competition"
+contact_form_action = "http://0.0.0.0:8000"
+copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
+description = "This is meta description"
+portrait = "images/author.png"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
-
-# JS Plugins
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
-
-
-################################ menu ##################################
-[[menu.main]]
-name = "Home"
-URL = "/"
-weight = 1
-
-[[menu.main]]
-name = "About"
-URL = "about"
-weight = 2
-
-[[menu.main]]
-name = "Contact"
-URL = "contact"
-weight = 3
-
-[[menu.main]]
-name = "Privacy Policy"
-URL = "privacy-policy"
-weight = 4
-
-
-#################### default parameters ################################
-[params]
-# Meta data
-description = "This is meta description"
-author = "Themefisher"
-# sidebar portrait
-portrait = "images/author.png"
-# sidebar bio
-bio = "This is my Bio"
-# copyright
-copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
-#contact_form_action
-contact_form_action = "http://0.0.0.0:8000"
-
-
-
-# Preloader
 [params.preloader]
 enable = true
-preloader = "" # use jpg, png, svg or gif format.
-
-
-############################# social site ########################
+preloader = ""
 [[params.social]]
+icon = "ti-facebook"
+link = "#"
 title = "facebook"
-icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
+icon = "ti-twitter-alt"
+link = "#"
 title = "twitter"
-icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
+icon = "ti-instagram"
+link = "#"
 title = "instagram"
-icon = "ti-instagram" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
+icon = "ti-github"
+link = "#"
 title = "github"
-icon = "ti-github" # themify icon : https://themify.me/themify-icons
-link = "#"
-
 [[params.social]]
-title = "linkedin"
-icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+icon = "ti-linkedin"
 link = "#"
+title = "linkedin"
